@@ -140,11 +140,11 @@
     <hive.group>org.apache.hive</hive.group>
     <hive.classifier>core</hive.classifier>
     <!-- Version used in Maven Hive dependency -->
-    <hive.version>2.3.10</hive.version>
+    <hive.version>4.0.1</hive.version>
     <!-- note that this should be compatible with Kafka brokers version 0.10 and up -->
     <kafka.version>3.9.2</kafka.version>
     <!-- After 10.17.1.0, the minimum required version is JDK19 -->
-    <derby.version>10.16.1.1</derby.version>
+    <derby.version>10.17.1.0</derby.version>
     <parquet.version>1.18.1</parquet.version>
     <orc.version>2.3.1</orc.version>
     <orc.classifier>shaded-protobuf</orc.classifier>
@@ -207,7 +207,7 @@
     <joda.version>2.14.3</joda.version>
     <jsr305.version>3.0.0</jsr305.version>
     <jaxb.version>2.2.11</jaxb.version>
-    <libthrift.version>0.16.0</libthrift.version>
+    <libthrift.version>0.24.0</libthrift.version>
     <antlr4.version>4.13.1</antlr4.version>
     <jpam.version>1.1</jpam.version>
     <selenium.version>4.32.0</selenium.version>
@@ -215,7 +215,7 @@
     <maven-antrun.version>3.1.0</maven-antrun.version>
     <commons-crypto.version>1.1.0</commons-crypto.version>
     <commons-cli.version>1.11.0</commons-cli.version>
-    <bouncycastle.version>1.84</bouncycastle.version>
+    <bouncycastle.version>1.85</bouncycastle.version>
     <tink.version>1.23.0</tink.version>
     <!--
       TODO: Once upgrade datasketches to a version that supports Java 25,
@@ -352,7 +352,7 @@
     <mssql.jdbc.version>13.2.1.jre11</mssql.jdbc.version>
     <ojdbc17.version>23.26.1.0.0</ojdbc17.version>
     <databricks.jdbc.version>3.3.1</databricks.jdbc.version>
-    <snowflake.jdbc.version>4.1.0</snowflake.jdbc.version>
+    <snowflake.jdbc.version>4.3.4</snowflake.jdbc.version>
     <terajdbc.version>20.00.00.39</terajdbc.version>
     <!-- Used for SBT build to retrieve the Spark version -->
     <spark.version>${project.version}</spark.version>
